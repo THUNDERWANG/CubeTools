@@ -1,3 +1,5 @@
 # CubeTools
 
-Start from Entry.java and set the folder path to the Chicken Dinner file. 
+Instructions:
+1. Place the Chicken Dinner file in CubeTools/src/main/resources/
+2. Change the folder string to match the file name in Entry.java
