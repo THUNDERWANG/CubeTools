@@ -1,0 +1,4 @@
+Flagged Deck: Tagger\src\main\resources\Sample\Dimir Reanimator.txt
+Sol Ring 
+Sol Ring
+
