@@ -1,4 +1,4 @@
-Flagged Deck: Tagger\src\main\resources\Sample\Dimir Reanimator.txt
+Flagged Deck: CubeTools\src\main\resources\Sample\Dimir Reanimator.txt
 Sol Ring 
 Sol Ring
 

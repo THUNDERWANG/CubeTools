@@ -84,7 +84,7 @@ public class Path {
      * @param deckFile  deck file
      * @param querySet of key cards (eg. A list of P9)
      */
-    public static void appendFileName(File deckFile, Set<String> querySet, String tag) {
+    static void appendFileName(File deckFile, Set<String> querySet, String tag) {
         try {
             if (!deckFile.getName().toUpperCase().contains(tag.toUpperCase())) {
                 BufferedReader bufferedReader = new BufferedReader(new FileReader(deckFile));

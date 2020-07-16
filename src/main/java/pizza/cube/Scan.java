@@ -55,10 +55,10 @@ public class Scan {
      */
     public static void findTagsAll(File file, String tag) {
         try {
-            new File("Tagger\\src\\main\\resources\\Results").mkdir();
-            Core.replaceFile("Tagger\\src\\main\\resources\\Results\\Tags Found.txt");
+            new File("CubeTools\\src\\main\\resources\\Results").mkdir();
+            Core.replaceFile("CubeTools\\src\\main\\resources\\Results\\Tags Found.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File(
-            "Tagger\\src\\main\\resources\\Results\\Tags Found.txt"), true));
+            "CubeTools\\src\\main\\resources\\Results\\Tags Found.txt"), true));
             Consumer<File> consumer = (deckFile) -> searchFileTag(deckFile, tag, bufferedWriter);
             Core.scanDir(file, consumer);
             bufferedWriter.close();
@@ -159,10 +159,10 @@ public class Scan {
     //TODO: Update?
     public static void findUnlabelAll(File folder, File powerFile) {
         try {
-            new File("Tagger\\src\\main\\resources\\Results").mkdir();
-            Core.replaceFile("Tagger\\src\\main\\resources\\Results\\Unlabeled File Paths.txt");
+            new File("CubeTools\\src\\main\\resources\\Results").mkdir();
+            Core.replaceFile("CubeTools\\src\\main\\resources\\Results\\Unlabeled File Paths.txt");
             Set<String> powerSet = Core.fileToSet(powerFile);
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("Tagger\\src\\main\\resources\\Results\\Unlabeled File Paths.txt", true));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("CubeTools\\src\\main\\resources\\Results\\Unlabeled File Paths.txt", true));
             StringBuilder stringBuilder = new StringBuilder();
             Consumer<File> consumer = (currentFile) -> checkUnLabelFile(currentFile, powerSet, bufferedWriter, stringBuilder);
             Core.scanDir(folder, consumer);

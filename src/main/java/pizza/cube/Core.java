@@ -111,7 +111,7 @@ public class Core {
      * @param file deck file
      * @return deck file as a Set
      */
-    public static Set<String> fileToSet(File file) {
+    static Set<String> fileToSet(File file) {
         Set<String> fileSet = new HashSet<String>();
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
