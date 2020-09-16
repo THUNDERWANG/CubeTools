@@ -1,4 +1,2 @@
-Flagged Deck: CubeTools\src\main\resources\Sample\Dimir Reanimator.txt
-Sol Ring 
-Sol Ring
-
+Flagged Deck: src\main\resources\Chicken Dinner UPDATED 9-12-20\Powered or Unpowered Decklists\2020\9.12.20\Temur (RUG) Skullclamp Midrange.txt
+Timetwister
